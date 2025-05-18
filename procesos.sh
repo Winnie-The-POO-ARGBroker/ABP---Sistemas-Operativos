@@ -12,18 +12,21 @@ validar_pid() {
 # Menú de opciones para gestión de procesos
 while true; do
     clear
-    echo "=== Gestión de Procesos ==="
-    echo "1. Ver procesos activos"
-    echo "2. Ver información de un proceso específico"
-    echo "3. Terminar un proceso con SIGTERM"
-    echo "4. Volver al menú principal"
-    echo -n "Seleccione una opción: "
+    echo "=========================================="
+    echo "         ⚙️  GESTIÓN DE PROCESOS DEL SISTEMA"
+    echo "=========================================="
+    echo "1️⃣  Ver procesos activos"
+    echo "2️⃣  Información de un proceso específico"
+    echo "3️⃣  Terminar un proceso (SIGTERM)"
+    echo "4️⃣  Volver al menú principal"
+    echo "------------------------------------------"
+    echo -n "🔸 Seleccione una opción: "
     read opción
 
     case $opcion in
 
     1) 
-            echo "Listado de procesos en ejecución:"
+            echo -e "\n📋 Procesos en ejecución:\n"
             ps aux | less 
             read -p "Presione Enter para volver al menú..."
             ;;
@@ -31,10 +34,10 @@ while true; do
     2) 
             read -p "Ingrese el PID: " pid
             if validar_pid "$pid"; then
-                echo "PID válido"
+                echo -e "\n✅ PID válido. Información del proceso:\n"
                 ps -p $pid -o pid,ppid,cmd,%mem,%cpu
             else
-                echo "PID inválido o inexistente."
+                echo -e "\n❌ PID inválido o inexistente.\n"
             fi
             read -p "Presione Enter para volver al menú..."
             ;;
@@ -43,17 +46,17 @@ while true; do
             if validar_pid "$pid"; then
                 read -p "¿Está seguro de terminar el proceso $pid? (s/n): " confirmacion
                 if [ "$confirmacion" == "s" ]; then
-                    kill -15 $pid && echo "Proceso terminado correctamente." || echo "Error al finalizar el proceso."
+                    kill -15 $pid && echo -e "\n✅ Proceso terminado correctamente.\n" || echo -e "\n❌ Error al finalizar el proceso.\n"
                 else
-                    echo "Operación cancelada."
+                    echo -e "\nℹ️  Operación cancelada.\n"
                 fi
             else
-                echo "PID no válido o proceso inexistente."
+                echo -e "\n❌ PID no válido o proceso inexistente.\n"
             fi
             read -p "Presione Enter para volver al menú..."
             ;;
     4) break ;;
-    *) echo "Opción inválida. Presione Enter para continuar..."; read ;;
+    *) echo -e "\n⚠️  Opción inválida. Presione Enter para continuar..."; read ;;
 
 
     esac
