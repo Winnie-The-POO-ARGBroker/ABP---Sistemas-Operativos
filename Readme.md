@@ -58,7 +58,13 @@ Reforzar aspectos básicos de la seguridad del entorno.
 
 <h3 align='center' >🎯 Objetivo general</h3>
 
+ Desarrollar un toolkit en Bash que permita a empresas de ciberseguridad:
 
+⚙️ Realizar tareas automatizadas de administración de servidores Linux.
+
+📊 Ejecutar procesos de monitoreo de recursos del sistema.
+
+🔐 Implementar funciones básicas para la detección de amenazas y refuerzo de la seguridad.
 
 
 <br>
