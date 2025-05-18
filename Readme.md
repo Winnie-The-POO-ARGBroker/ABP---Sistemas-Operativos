@@ -43,7 +43,7 @@ La gestión de procesos es uno de los pilares fundamentales del correcto funcion
 <br>
 
 <h3 align='center' >🎯 Objetivo general</h3>
- Desarrollar un toolkit en Bash que permita a empresas de ciberseguridad realizar tareas automatizadas de administración, monitoreo y detección de amenazas en servidores Linux.
+
 
 
 
