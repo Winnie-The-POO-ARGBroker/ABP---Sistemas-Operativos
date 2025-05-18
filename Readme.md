@@ -2,9 +2,19 @@
 
 <br>
 
-<h2 align="center">🎯 Nombre del Proyecto</h2> 🧰 Toolkit de Administración Jr. para empresas de ciberseguridad
-<h2 align="center">🎯 Tipo de Proyecto</h2>  ⚙ Tecnológico
-<h2 align="center">🎯 Espacio Curricular</h2> 💾 Sistemas Operativos
+<h2 align="center">🎯 Nombre del Proyecto</h2>
+🧰 Toolkit de Administración Jr. para empresas de ciberseguridad
+
+<br>
+
+<h2 align="center">🎯 Tipo de Proyecto</h2>
+⚙ Tecnológico
+
+<br>
+
+<h2 align="center">🎯 Espacio Curricular</h2>
+💾 Sistemas Operativos
+
 <h2 align='center' >🎯 Ejes tematicos / Red de conceptos</h2>
 
 🔽 Este proyecto se desarrolla a partir de los siguientes ejes temáticos clave:
@@ -20,6 +30,8 @@ Análisis proactivo del rendimiento del sistema, detección de cuellos de botell
 
 💻 Terminal como entorno principal de trabajo
 Dominio de la consola para ejecutar tareas complejas de manera precisa, rápida y profesional, consolidando habilidades de administración avanzada.
+
+<br>
 
 <h2 align='center' >🎯 Problematica</h2>
 Las empresas que administran servidores necesitan herramientas simples, eficientes y portables que permitan gestionar adecuadamente los recursos del sistema operativo —como el uso de CPU, memoria, disco y procesos activos— desde un único entorno centralizado.
@@ -49,7 +61,6 @@ Reforzar aspectos básicos de la seguridad del entorno.
 <h2 align='center' >🎯 Fundamentacion</h2>
  
 
-
 <br>
 
 <h2 align='center' >🎯 Vision del proyecto</h2>
@@ -65,7 +76,6 @@ Reforzar aspectos básicos de la seguridad del entorno.
 📊 Ejecutar procesos de monitoreo de recursos del sistema.
 
 🔐 Implementar funciones básicas para la detección de amenazas y refuerzo de la seguridad.
-
 
 <br>
 
@@ -83,8 +93,27 @@ Reforzar aspectos básicos de la seguridad del entorno.
 <br>
 
 <h2 align='center' >🎯 Producto Final</h2>
+El producto final de esta etapa es uno de los módulos centrales del toolkit: el script de monitoreo y gestión de procesos del sistema.
 
+Este componente permite:
 
+🧠 Ver procesos activos en tiempo real
+
+📈 Monitorear el uso de CPU y memoria
+
+❌ Finalizar procesos innecesarios o sospechosos
+
+🚨 Detectar comportamientos inusuales
+
+Desarrollado con scripting en Bash, el módulo utiliza herramientas como ps, top, htop y kill, integradas en un menú interactivo por consola. Actualmente, este módulo ya está parcialmente conectado al menú principal del toolkit, sentando la base para futuros módulos como:
+
+🌐 Monitoreo de red
+
+💽 Análisis de uso de disco
+
+📁 Gestión de logs
+
+Este avance valida la interacción real con el sistema operativo y consolida la estructura de navegación del toolkit.
 
 <br>
 
