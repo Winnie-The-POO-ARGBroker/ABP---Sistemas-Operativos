@@ -59,7 +59,15 @@ Reforzar aspectos básicos de la seguridad del entorno.
 <br>
 
 <h2 align='center' >🎯 Fundamentacion</h2>
- 
+
+En el contexto actual, donde los servicios informáticos se encuentran cada vez más expuestos a amenazas internas y externas, las empresas que administran servidores requieren herramientas que les permitan asegurar la estabilidad, el rendimiento y la integridad de sus sistemas. Esta necesidad se vuelve aún más crítica en entornos de producción donde múltiples aplicaciones deben convivir y ejecutarse de forma eficiente y segura.
+
+La problemática identificada se centra en la ausencia de herramientas integradas que permitan a una empresa monitorear y gestionar en tiempo real el comportamiento de su sistema operativo, identificar procesos sospechosos, prevenir sobrecargas de recursos y tomar decisiones preventivas ante posibles incidentes de seguridad o caídas de servicio.
+
+Abordar esta problemática desde el espacio curricular Sistemas Operativos permite a los estudiantes aplicar los conocimientos adquiridos sobre la estructura interna del sistema, la ejecución y control de procesos, el uso de recursos como CPU, memoria y disco, y la administración de usuarios y permisos. El diseño e implementación de un toolkit de administración y monitoreo fortalece la comprensión de cómo interactúan los diferentes componentes del sistema operativo y permite evaluar su impacto en la performance general de un servidor.
+
+La gestión de procesos es uno de los pilares fundamentales del correcto funcionamiento de cualquier sistema operativo. Un control ineficiente de los procesos puede derivar en bloqueos, consumo excesivo de recursos, vulnerabilidades y, en casos más severos, en la caída total del sistema. Por esta razón, desarrollar herramientas que permitan observar y analizar el comportamiento de los procesos activos no solo es una necesidad técnica, sino también una práctica esencial dentro de la administración moderna de sistemas y la ciberseguridad.
+
 
 <br>
 
