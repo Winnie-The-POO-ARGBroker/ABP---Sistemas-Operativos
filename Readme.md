@@ -2,28 +2,24 @@
 
 <br>
 
-<h2 align='center' >🎯 Nombre del Proyecto</h2>
-Toolkit de Administración Jr. para empresas de ciberseguridad
-<br>
-
-<h2 align='center' >🎯 Tipo de Proyecto</h2>
-Tecnológico
-<br>
-
-<h2 align='center' >🎯 Espacio Curricular</h2>
-Sistemas Operativos
-<br>
-
+<h2 align="center">🎯 Nombre del Proyecto</h2> 🧰 Toolkit de Administración Jr. para empresas de ciberseguridad
+<h2 align="center">🎯 Tipo de Proyecto</h2>  ⚙ Tecnológico
+<h2 align="center">🎯 Espacio Curricular</h2> 💾 Sistemas Operativos
 <h2 align='center' >🎯 Ejes tematicos / Red de conceptos</h2>
- Este proyecto se centra en los siguientes ejes temáticos del espacio curricular:
 
-Administración de sistemas operativos basados en Linux: gestión de recursos, procesos, usuarios y archivos.
-Automatización mediante scripting en Bash: creación de herramientas personalizadas para tareas administrativas.
-Monitoreo y diagnóstico de sistemas: análisis de rendimiento, consumo de recursos y accesos al sistema.
-Consola como herramienta principal de administración: fortalecimiento del uso de la terminal para realizar tareas avanzadas de manera eficiente
- 
+🔽 Este proyecto se desarrolla a partir de los siguientes ejes temáticos clave:
 
-<br>
+🖥️ Administración de sistemas operativos Linux
+Gestión avanzada de recursos, procesos, usuarios y estructuras de archivos, promoviendo el control total del entorno operativo.
+
+⚙️ Automatización con scripts en Bash
+Creación de herramientas personalizadas que permiten automatizar tareas repetitivas y optimizar la eficiencia administrativa.
+
+📊 Monitoreo y diagnóstico del sistema
+Análisis proactivo del rendimiento del sistema, detección de cuellos de botella, evaluación del uso de recursos y control de accesos.
+
+💻 Terminal como entorno principal de trabajo
+Dominio de la consola para ejecutar tareas complejas de manera precisa, rápida y profesional, consolidando habilidades de administración avanzada.
 
 <h2 align='center' >🎯 Problematica</h2>
 Las empresas que administran servidores requieren herramientas simples, eficientes y portables que les permitan gestionar adecuadamente los recursos del sistema operativo, tales como el uso de CPU, memoria, disco y procesos activos. La falta de soluciones personalizadas que funcionen desde la terminal y que integren estas funciones en un solo entorno provoca una sobrecarga operativa en los técnicos, quienes deben ejecutar múltiples comandos de forma manual o depender de herramientas externas no siempre adaptadas al contexto.
