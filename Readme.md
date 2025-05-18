@@ -50,9 +50,6 @@ La gestión de procesos es uno de los pilares fundamentales del correcto funcion
 <br>
 
 <h3 align='center' >🎯 Objetivos especificos</h3>
- Diseñar una interfaz de menú principal en consola que permita al usuario navegar de manera clara e intuitiva entre las diferentes herramientas del toolkit.
-Desarrollar scripts de monitoreo del sistema que permitan observar en tiempo real el uso de CPU, memoria RAM, espacio en disco y procesos activos.
-Documentar cada herramienta del toolkit especificando su función, comandos utilizados y su relevancia para tareas de ciberseguridad como el análisis de rendimiento o detección de intrusiones.
 
 
 <br>
