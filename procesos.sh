@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Función para validar si un PID ingresado existe
 validar_pid() {
     if ps -p "$1" > /dev/null 2>&1; then
@@ -6,6 +8,7 @@ validar_pid() {
         return 1
     fi
 }
+
 # Menú de opciones para gestión de procesos
 while true; do
     clear
@@ -19,12 +22,24 @@ while true; do
 
     case $opcion in
 
-	# CONTENIDO DEL SH
-
-    esac
-done
     1) 
             echo "Listado de procesos en ejecución:"
             ps aux | less 
             read -p "Presione Enter para volver al menú..."
             ;;
+
+    2) 
+            read -p "Ingrese el PID: " pid
+            if validar_pid "$pid"; then
+                echo "PID válido"
+                ps -p $pid -o pid,ppid,cmd,%mem,%cpu
+            else
+                echo "PID inválido o inexistente."
+            fi
+            read -p "Presione Enter para volver al menú..."
+            ;;
+
+
+
+    esac
+done
