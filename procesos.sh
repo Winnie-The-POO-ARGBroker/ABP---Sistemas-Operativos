@@ -38,7 +38,22 @@ while true; do
             fi
             read -p "Presione Enter para volver al menú..."
             ;;
-
+    3) 
+            read -p "Ingrese el PID a finalizar: " pid
+            if validar_pid "$pid"; then
+                read -p "¿Está seguro de terminar el proceso $pid? (s/n): " confirmacion
+                if [ "$confirmacion" == "s" ]; then
+                    kill -15 $pid && echo "Proceso terminado correctamente." || echo "Error al finalizar el proceso."
+                else
+                    echo "Operación cancelada."
+                fi
+            else
+                echo "PID no válido o proceso inexistente."
+            fi
+            read -p "Presione Enter para volver al menú..."
+            ;;
+    4) break ;;
+    *) echo "Opción inválida. Presione Enter para continuar..."; read ;;
 
 
     esac
