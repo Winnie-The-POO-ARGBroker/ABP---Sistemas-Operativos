@@ -6,7 +6,7 @@
 Toolkit de Administración Jr. para empresas de ciberseguridad
 <br>
 
-<h2 align='center' >🎯 Tipo de Proyecto-</h2>
+<h2 align='center' >🎯 Tipo de Proyecto</h2>
 Tecnológico
 <br>
 
