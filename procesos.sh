@@ -23,3 +23,8 @@ while true; do
 
     esac
 done
+    1) 
+            echo "Listado de procesos en ejecución:"
+            ps aux | less 
+            read -p "Presione Enter para volver al menú..."
+            ;;
