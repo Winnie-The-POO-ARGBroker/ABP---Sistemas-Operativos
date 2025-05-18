@@ -2,43 +2,46 @@
 
 <br>
 
-<h2 align='center' >🎯 Nombre del Proyecto-Toolkit de Administración Jr. para empresas de ciberseguridad </h2>
-
+<h2 align='center' >🎯 Nombre del Proyecto</h2>
+Toolkit de Administración Jr. para empresas de ciberseguridad
 <br>
 
-<h2 align='center' >🎯 Tipo de Proyecto- Tecnológico</h2>
-
+<h2 align='center' >🎯 Tipo de Proyecto-</h2>
+Tecnológico
 <br>
 
-<h2 align='center' >🎯 Espacio Curricular- Sistemas Operativos</h2>
-
+<h2 align='center' >🎯 Espacio Curricular</h2>
+Sistemas Operativos
 <br>
 
-<h2 align='center' >🎯 Ejes tematicos / Red de conceptos-Este proyecto se centra en los siguientes ejes temáticos del espacio curricular:
+<h2 align='center' >🎯 Ejes tematicos / Red de conceptos</h2>
+ Este proyecto se centra en los siguientes ejes temáticos del espacio curricular:
 
 Administración de sistemas operativos basados en Linux: gestión de recursos, procesos, usuarios y archivos.
 Automatización mediante scripting en Bash: creación de herramientas personalizadas para tareas administrativas.
 Monitoreo y diagnóstico de sistemas: análisis de rendimiento, consumo de recursos y accesos al sistema.
 Consola como herramienta principal de administración: fortalecimiento del uso de la terminal para realizar tareas avanzadas de manera eficiente
- </h2>
+ 
 
 <br>
 
-<h2 align='center' >🎯 Problematica-Las empresas que administran servidores requieren herramientas simples, eficientes y portables que les permitan gestionar adecuadamente los recursos del sistema operativo, tales como el uso de CPU, memoria, disco y procesos activos. La falta de soluciones personalizadas que funcionen desde la terminal y que integren estas funciones en un solo entorno provoca una sobrecarga operativa en los técnicos, quienes deben ejecutar múltiples comandos de forma manual o depender de herramientas externas no siempre adaptadas al contexto.
+<h2 align='center' >🎯 Problematica</h2>
+Las empresas que administran servidores requieren herramientas simples, eficientes y portables que les permitan gestionar adecuadamente los recursos del sistema operativo, tales como el uso de CPU, memoria, disco y procesos activos. La falta de soluciones personalizadas que funcionen desde la terminal y que integren estas funciones en un solo entorno provoca una sobrecarga operativa en los técnicos, quienes deben ejecutar múltiples comandos de forma manual o depender de herramientas externas no siempre adaptadas al contexto.
 
 Esto no solo afecta la eficiencia del mantenimiento cotidiano, sino que también puede dificultar la detección temprana de problemas de rendimiento o saturación, comprometiendo el correcto funcionamiento de las aplicaciones y servicios. Ante este panorama, surge la necesidad de contar con un toolkit propio, automatizado y diseñado específicamente para monitorear y gestionar los recursos del sistema, integrando además funciones básicas orientadas a reforzar la seguridad del entorno.
-</h2>
+
 
 <br>
 
-<h2 align='center' >🎯 Fundamentacion-En el contexto actual, donde los servicios informáticos se encuentran cada vez más expuestos a amenazas internas y externas, las empresas que administran servidores requieren herramientas que les permitan asegurar la estabilidad, el rendimiento y la integridad de sus sistemas. Esta necesidad se vuelve aún más crítica en entornos de producción donde múltiples aplicaciones deben convivir y ejecutarse de forma eficiente y segura.
+<h2 align='center' >🎯 Fundamentacion</h2>
+ En el contexto actual, donde los servicios informáticos se encuentran cada vez más expuestos a amenazas internas y externas, las empresas que administran servidores requieren herramientas que les permitan asegurar la estabilidad, el rendimiento y la integridad de sus sistemas. Esta necesidad se vuelve aún más crítica en entornos de producción donde múltiples aplicaciones deben convivir y ejecutarse de forma eficiente y segura.
 
 La problemática identificada se centra en la ausencia de herramientas integradas que permitan a una empresa monitorear y gestionar en tiempo real el comportamiento de su sistema operativo, identificar procesos sospechosos, prevenir sobrecargas de recursos y tomar decisiones preventivas ante posibles incidentes de seguridad o caídas de servicio.
 
 Abordar esta problemática desde el espacio curricular Sistemas Operativos permite a los estudiantes aplicar los conocimientos adquiridos sobre la estructura interna del sistema, la ejecución y control de procesos, el uso de recursos como CPU, memoria y disco, y la administración de usuarios y permisos. El diseño e implementación de un toolkit de administración y monitoreo fortalece la comprensión de cómo interactúan los diferentes componentes del sistema operativo y permite evaluar su impacto en la performance general de un servidor.
 
 La gestión de procesos es uno de los pilares fundamentales del correcto funcionamiento de cualquier sistema operativo. Un control ineficiente de los procesos puede derivar en bloqueos, consumo excesivo de recursos, vulnerabilidades y, en casos más severos, en la caída total del sistema. Por esta razón, desarrollar herramientas que permitan observar y analizar el comportamiento de los procesos activos no solo es una necesidad técnica, sino también una práctica esencial dentro de la administración moderna de sistemas y la ciberseguridad.
-</h2>
+
 
 <br>
 
@@ -46,16 +49,18 @@ La gestión de procesos es uno de los pilares fundamentales del correcto funcion
 
 <br>
 
-<h3 align='center' >🎯 Objetivo general-Desarrollar un toolkit en Bash que permita a empresas de ciberseguridad realizar tareas automatizadas de administración, monitoreo y detección de amenazas en servidores Linux.
+<h3 align='center' >🎯 Objetivo general</h3>
+ Desarrollar un toolkit en Bash que permita a empresas de ciberseguridad realizar tareas automatizadas de administración, monitoreo y detección de amenazas en servidores Linux.
 
-</h3>
+
 
 <br>
 
-<h3 align='center' >🎯 Objetivos especificos- Diseñar una interfaz de menú principal en consola que permita al usuario navegar de manera clara e intuitiva entre las diferentes herramientas del toolkit.
+<h3 align='center' >🎯 Objetivos especificos</h3>
+ Diseñar una interfaz de menú principal en consola que permita al usuario navegar de manera clara e intuitiva entre las diferentes herramientas del toolkit.
 Desarrollar scripts de monitoreo del sistema que permitan observar en tiempo real el uso de CPU, memoria RAM, espacio en disco y procesos activos.
 Documentar cada herramienta del toolkit especificando su función, comandos utilizados y su relevancia para tareas de ciberseguridad como el análisis de rendimiento o detección de intrusiones.
-</h3>
+
 
 <br>
 
@@ -67,12 +72,13 @@ Documentar cada herramienta del toolkit especificando su función, comandos util
 
 <br>
 
-<h2 align='center' >🎯 Producto Final- En esta etapa del proyecto se está desarrollando uno de los módulos centrales del toolkit de administración: el script de monitoreo y gestión de procesos del sistema. Este componente tiene como objetivo permitir la visualización de procesos activos, el consumo de recursos (CPU, memoria), y brindar opciones para finalizar procesos o detectar comportamientos sospechosos.
+<h2 align='center' >🎯 Producto Final</h2>
+ En esta etapa del proyecto se está desarrollando uno de los módulos centrales del toolkit de administración: el script de monitoreo y gestión de procesos del sistema. Este componente tiene como objetivo permitir la visualización de procesos activos, el consumo de recursos (CPU, memoria), y brindar opciones para finalizar procesos o detectar comportamientos sospechosos.
 
 El script está siendo construido utilizando Bash scripting, integrando comandos del sistema operativo como ps, top, kill, y htop, entre otros. Además, se está trabajando en una interfaz tipo menú desde consola, que servirá como punto de acceso organizado y jerárquico a las diferentes funciones del toolkit. Por el momento, el módulo de procesos ya se encuentra parcialmente integrado al menú principal, permitiendo al usuario acceder a este con una opción dedicada.
 
 Este avance constituye una etapa clave dentro del desarrollo global del toolkit, ya que permite sentar las bases de la estructura general de navegación del sistema y validar las interacciones con el sistema operativo real. A futuro, este menú se ampliará con otros módulos como monitoreo de red, análisis de uso de disco, y gestión de logs. 
-</h2>
+
 
 <br>
 
