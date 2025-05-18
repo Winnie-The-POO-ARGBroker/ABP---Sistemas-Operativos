@@ -22,9 +22,6 @@ Análisis proactivo del rendimiento del sistema, detección de cuellos de botell
 Dominio de la consola para ejecutar tareas complejas de manera precisa, rápida y profesional, consolidando habilidades de administración avanzada.
 
 <h2 align='center' >🎯 Problematica</h2>
-Las empresas que administran servidores requieren herramientas simples, eficientes y portables que les permitan gestionar adecuadamente los recursos del sistema operativo, tales como el uso de CPU, memoria, disco y procesos activos. La falta de soluciones personalizadas que funcionen desde la terminal y que integren estas funciones en un solo entorno provoca una sobrecarga operativa en los técnicos, quienes deben ejecutar múltiples comandos de forma manual o depender de herramientas externas no siempre adaptadas al contexto.
-
-Esto no solo afecta la eficiencia del mantenimiento cotidiano, sino que también puede dificultar la detección temprana de problemas de rendimiento o saturación, comprometiendo el correcto funcionamiento de las aplicaciones y servicios. Ante este panorama, surge la necesidad de contar con un toolkit propio, automatizado y diseñado específicamente para monitorear y gestionar los recursos del sistema, integrando además funciones básicas orientadas a reforzar la seguridad del entorno.
 
 
 <br>
