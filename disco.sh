@@ -47,6 +47,14 @@
         read -p "Presione ENTER para continuar..."
         ;;
       4)
+        read -p "🔸 Ingrese la ruta donde buscar (ej: /home): " ruta
+        read -p "🔸 Ingrese el tamaño mínimo (ej: 100M): " tam
+        echo
+        echo "🔸 Archivos mayores a $tam en $ruta:"
+        find "$ruta" -type f -size +"$tam" -exec ls -lh {} \; 2>/dev/null | awk '{ print $9 ": " $5 }'
+        echo
+        read -p "Presione ENTER para continuar..."
+        ;;
       5)
         break
         ;;
