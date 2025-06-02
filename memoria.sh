@@ -12,38 +12,43 @@ while true; do
   echo "------------------------------------------"
   echo -n "🔸 Seleccione una opción: "
   read opcion
+  
   case $opcion in
     1)
-        echo
-        echo "🔸 Uso general de memoria:"
-        free -h
-        echo
-        read -p "Presione Enter para volver al menú..."
-        ;;
+      echo
+      echo "🔸 Uso general de memoria:"
+      free -h
+      echo
+      read -p "Presione Enter para volver al menú..."
+      ;;
+        
     2)
-        echo
-        echo "🔸 Detalles de /proc/meminfo:"
-        grep -E 'MemTotal|MemFree|Buffers|Cached|SwapTotal|SwapFree' /proc/meminfo
-        echo
-        read -p "Presione Enter para volver al menú..."
-        ;;
+      echo
+      echo "🔸 Detalles de /proc/meminfo:"
+      grep -E 'MemTotal|MemFree|Buffers|Cached|SwapTotal|SwapFree' /proc/meminfo
+      echo
+      read -p "Presione Enter para volver al menú..."
+      ;;
+        
     3)
-        echo
-        echo "🔸 Estadísticas del sistema:"
-        vmstat 1 5
-        echo
-        read -p "Presione Enter para volver al menú..."
-        ;;
+      echo
+      echo "🔸 Estadísticas del sistema:"
+      vmstat 1 5
+      echo
+      read -p "Presione Enter para volver al menú..."
+      ;;
+        
     4)
-        echo
-        echo "🔸 Procesos que más memoria consumen:"
-        ps aux --sort=-%mem | head -10
-        echo
-        read -p "Presione Enter para volver al menú..."
-        ;;
+      echo
+      echo "🔸 Procesos que más memoria consumen:"
+      ps aux --sort=-%mem | head -10
+      echo
+      read -p "Presione Enter para volver al menú..."
+      ;;
     5)
       break
       ;;
+      
     *) echo -e "\n⚠️ Opción inválida. Presione Enter para continuar..."; read ;;
   esac
 done
