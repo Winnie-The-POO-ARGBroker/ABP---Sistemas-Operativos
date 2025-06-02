@@ -12,9 +12,22 @@ while true; do
   echo "------------------------------------------"
   echo -n "🔸 Seleccione una opción: "
   read opcion
-    case $opcion in
+  case $opcion in
     1)
+    
+        echo
+        echo "🔸 Uso general de memoria:"
+        free -h
+        echo
+        read -p "Presione Enter para volver al menú..."
+        ;;
     2)
+        echo
+        echo "🔸 Detalles de /proc/meminfo:"
+        grep -E 'MemTotal|MemFree|Buffers|Cached|SwapTotal|SwapFree' /proc/meminfo
+        echo
+        read -p "Presione Enter para volver al menú..."
+        ;;
     3)
     4)
     5)
@@ -23,3 +36,4 @@ while true; do
     *) echo -e "\n⚠️ Opción inválida. Presione Enter para continuar..."; read ;;
   esac
 done
+
