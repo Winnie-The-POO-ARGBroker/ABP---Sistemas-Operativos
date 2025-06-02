@@ -14,7 +14,26 @@
     read opcion
     case $opcion in
       1)
+        echo
+        echo "🔸 Uso de disco:"
+        df -h
+        echo
+        read -p "Presione ENTER para continuar..."
+        ;;
+
       2)
+        read -p "🔸 Ingrese una ruta: " ruta
+        if [ -d "$ruta" ] || [ -f "$ruta" ]; then
+          echo
+          echo "🔸 Tamaño ocupado por $ruta:"
+          du -sh "$ruta"
+        else
+          echo "\n❌ La ruta ingresada no es válida."
+        fi
+        echo
+        read -p "Presione ENTER para continuar..."
+        ;;
+
       3)
       4)
       5)
