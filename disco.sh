@@ -35,6 +35,17 @@
         ;;
 
       3)
+        read -p "🔸 Ingrese un directorio para listar archivos: " dir
+        if [ -d "$dir" ]; then
+            echo
+            echo "🔸 Archivos en $dir:"
+            ls -lh "$dir"
+        else
+            echo "\n❌ Directorio no válido."
+        fi
+        echo
+        read -p "Presione ENTER para continuar..."
+        ;;
       4)
       5)
         break
