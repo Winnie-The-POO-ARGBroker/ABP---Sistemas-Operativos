@@ -132,3 +132,91 @@ Este avance valida la interacción real con el sistema operativo y consolida la 
 <br>
 
 <h2 align='center' >🎯 Bibliografia</h2>
+
+<br>
+
+<h2 align='center' >🧭 Guía de uso del Toolkit</h2>
+
+### 🔧 Requisitos
+
+- Sistema operativo basado en Linux (Ubuntu, Debian, etc.)
+- Bash instalado (por defecto en la mayoría de las distros)
+- Permisos para ejecutar scripts (`chmod`)
+
+---
+
+### 🛠️ Instalación
+
+1. Clonar el repositorio o copiar los archivos al equipo.
+2. Dar permisos de ejecución a los scripts:
+
+```bash
+chmod +x main_toolkit.sh procesos.sh memoria.sh disco.sh
+```
+
+---
+
+### ▶️ Ejecución del Toolkit
+
+Para iniciar el menú principal, desde la terminal:
+
+```bash
+./main_toolkit.sh
+```
+
+Se mostrará un menú interactivo con distintas opciones:
+
+```
+1. Gestión de Procesos
+2. Gestión de Memoria
+3. Gestión de Disco
+4. Salir
+```
+
+---
+
+## 📂 Módulos disponibles
+
+### 🔹 Gestión de Procesos (`procesos.sh`)
+
+Permite visualizar y administrar procesos del sistema.
+
+- **Ver procesos activos:** muestra todos los procesos en ejecución.
+- **Consultar un proceso:** solicita un PID y muestra detalles.
+- **Finalizar proceso:** permite cerrar un proceso con `SIGTERM`.
+
+✅ *Ideal para detectar procesos innecesarios o que consumen recursos en exceso.*
+
+---
+
+### 🔹 Gestión de Memoria (`memoria.sh`)
+
+Monitorea el uso de la RAM y la memoria virtual.
+
+- **Uso general:** resumen de RAM y SWAP.
+- **Detalles avanzados:** muestra valores técnicos desde `/proc/meminfo`.
+- **Estadísticas en tiempo real:** utiliza `vmstat` para análisis dinámico.
+- **Top 10 procesos por uso de memoria.**
+
+✅ *Útil para anticipar saturaciones o encontrar procesos con fugas de memoria.*
+
+---
+
+### 🔹 Gestión de Disco (`disco.sh`)
+
+Ayuda a identificar cómo se utiliza el espacio en disco.
+
+- **Uso de particiones:** muestra espacio libre y ocupado.
+- **Tamaño de una ruta:** analiza una carpeta o archivo específico.
+- **Listado con permisos:** visualiza los archivos en un directorio.
+- **Buscar archivos grandes:** encuentra archivos que superan un tamaño dado (ej: 100M, 500K).
+
+✅ *Perfecto para limpiezas de sistema y control de uso de almacenamiento.*
+
+---
+
+### 📌 Sugerencias
+
+- Ejecutar los scripts con permisos adecuados (como `sudo` si es necesario para ver algunos procesos o logs protegidos).
+- No modificar los scripts sin conocimiento previo del sistema, ya que podrían afectar procesos importantes.
+
