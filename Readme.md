@@ -100,9 +100,39 @@ La gestión de procesos es uno de los pilares fundamentales del correcto funcion
 
 <h2 align='center' >🎯 Seleccion de acciones</h2>
 
+| Objetivo específico                                                                                              | Acciones                                                                                                                                                   |
+|------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Diseñar una interfaz de menú principal en consola que permita al usuario navegar de manera clara e intuitiva.   | - Diagramar el menú y su estructura en papel o digital.                                                                                                   |
+|                                                                                                                  | - Programar el menú interactivo con `case` y `while` en Bash.                                                                                             |
+|                                                                                                                  | - Probar la navegación entre opciones y agregar mensajes visuales y validaciones.                                                                         |
+| Desarrollar el script de monitoreo y gestión de procesos (`procesos.sh`).                                       | - Investigar comandos útiles: `ps`, `top`, `kill`, `htop`.                                                                                                |
+|                                                                                                                  | - Programar funciones para visualizar procesos, consultar PID y finalizar procesos.                                                                       |
+|                                                                                                                  | - Validar PIDs ingresados y agregar confirmaciones antes de finalizar procesos.                                                                           |
+| Desarrollar el script de monitoreo de memoria (`memoria.sh`).                                                   | - Investigar herramientas como `free`, `vmstat`, `/proc/meminfo`.                                                                                         |
+|                                                                                                                  | - Crear menú interno con opciones detalladas.                                                                                                             |
+|                                                                                                                  | - Programar opción para ver procesos que más memoria consumen.                                                                                            |
+|                                                                                                                  | - Validar entradas y diseñar salida clara.                                                                                                                |
+| Desarrollar el script de análisis de disco (`disco.sh`).                                                        | - Investigar comandos como `df`, `du`, `ls`, `find`.                                                                                                       |
+|                                                                                                                  | - Crear menú con opciones para ver particiones, rutas específicas, archivos grandes.                                                                      |
+|                                                                                                                  | - Implementar validación de rutas y salida de errores legibles.                                                                                           |
+| Documentar cada herramienta del toolkit, especificando su función, comandos utilizados y su relevancia.         | - Comentar los scripts explicando cada función.                                                                                                           |
+|                                                                                                                  | - Crear el archivo `README.md` con instrucciones y ejemplos.                                                                                              |
+|                                                                                                                  | - Incluir descripción técnica de cada módulo y su uso en contextos reales.                                                                                |
+
+
 <br>
 
 <h2 align='center' >🎯 Cronograma</h2>
+
+| Semana         | Objetivo 1: Menú principal                         | Objetivo 2: procesos.sh                          | Objetivo 3: memoria.sh                            | Objetivo 4: disco.sh                                | Objetivo 5: Documentación                          |
+|----------------|----------------------------------------------------|--------------------------------------------------|---------------------------------------------------|-----------------------------------------------------|----------------------------------------------------|
+| Semana del 28/4 | Estructura base del menú                           | Investigación de comandos (`ps`, `kill`, etc.)   | -                                                 | -                                                   | -                                                  |
+| Semana del 5/5  | Opciones preliminares en consola                   | Programación completa del módulo                 | -                                                 | -                                                   | -                                                  |
+| Semana del 12/5 | Mejora del flujo con `case` y `while`             | Entrega del módulo `procesos.sh`                 | -                                                 | -                                                   | Inicio de comentarios en código de procesos       |
+| Semana del 19/5 | Inclusión de opción para módulo de procesos        | Espera de corrección del docente                 | Inicio del desarrollo: menú interno y opciones 1–2| Desarrollo completo del menú y opciones 1–2–3       | -                                                  |
+| Semana del 26/5 | Validaciones simples y mensajes                    | -                                                | Opciones 3–4, validaciones y conexión al menú      | Opción 4, validaciones y conexión al menú           | Redacción del `README.md` paso a paso             |
+| Semana del 3/6  | Estilización general del menú / Integración final | -                                                | -                                                 | -                                                   | Finalización y exportación del informe/documentación |
+
 
 <br>
 
