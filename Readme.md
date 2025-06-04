@@ -163,7 +163,15 @@ Este avance valida la interacción real con el sistema operativo y consolida la 
 
 <h2 align='center' >🎯 Bibliografia</h2>
 
-<br>
+The Linux Documentation Project. (n.d.). *Linux System Administrator's Guide*. https://www.tldp.org/LDP/sag/html/
+
+The Linux man-pages project. (n.d.). *ps(1) – Process status*. https://man7.org/linux/man-pages/man1/ps.1.html
+
+The Linux man-pages project. (n.d.). *kill(1) – Send signal to a process*. https://man7.org/linux/man-pages/man1/kill.1.html
+
+The Linux man-pages project. (n.d.). *htop(1) – Interactive process viewer*. https://man7.org/linux/man-pages/man1/htop.1.html
+
+Free Software Foundation. (n.d.). *proc(5) – Process information pseudo-filesystem*. https://man7.org/linux/man-pages/man5/proc.5.html
 
 <h2 align='center' >🧭 Guía de uso del Toolkit</h2>
 
